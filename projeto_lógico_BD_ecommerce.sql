@@ -1,8 +1,8 @@
--- CriaÁ„o do BD para cen·rio de E-commerce
+-- Cria√ß√£o do BD para cen√°rio de E-commerce
 CREATE DATABASE ecommerce;
 USE ecommerce;
 
--- CriaÁ„o das tabelas
+-- Cria√ß√£o das tabelas
 
 -- Tabela de Cliente
 CREATE TABLE cliente (
@@ -27,18 +27,18 @@ CREATE TABLE cliente (
 -- Tabela de Produto
 CREATE TABLE produto (
     idProduto INT AUTO_INCREMENT PRIMARY KEY,
-    Nome VARCHAR(45),
-    Categoria ENUM('Audio e Video','Automotivo','BebÍs','Beleza e Perfumaria',
-                  'Brinquedos','Cama, Mesa e Banho','Casa e ContruÁ„o',
-                  'Celular e Smartphone','DecoraÁ„o','EletrodomÈsticos',
-                  'Esporte e Lazer','Ferramentas','Games','Inform·tica',
-                  'Livros','Moda','MÛveis','Papelaria','Pet Shop','RelÛgios',
+    Nome VARCHAR(120),
+    Categoria ENUM('Audio e Video','Automotivo','Beb√™s','Beleza e Perfumaria',
+                  'Brinquedos','Cama, Mesa e Banho','Casa e Contru√ß√£o',
+                  'Celular e Smartphone','Decora√ß√£o','Eletrodom√©sticos',
+                  'Esporte e Lazer','Ferramentas','Games','Inform√°tica',
+                  'Livros','Moda','M√≥veis','Papelaria','Pet Shop','Rel√≥gios',
                   'TVs') NOT NULL,
     Descricao VARCHAR(200) NOT NULL,
     Preco_unitario FLOAT NOT NULL,
-    Possui_garantia_estendida ENUM('Sim','N„o'),
+    Possui_garantia_estendida ENUM('Sim','N√£o'),
     Avaliacao FLOAT DEFAULT 0,
-    Dimensoes VARCHAR(10)
+    Dimensoes VARCHAR(25)
 );
 
 -- Tabela de Empresa de Frete
@@ -60,7 +60,7 @@ CREATE TABLE entrega (
     idEntrega INT AUTO_INCREMENT PRIMARY KEY,
     idEntregaEmpresa_frete INT,
     Codigo_rastreio VARCHAR(45) NOT NULL,
-    Status_entrega ENUM('Separado pelo fornecedor','Saiu do centro de distribuiÁ„o', 
+    Status_entrega ENUM('Separado pelo fornecedor','Saiu do centro de distribui√ß√£o', 
                        'A caminho da sua cidade','Na rota de entrega', 'Entregue') NOT NULL,
     Prazo_entrega DATE NOT NULL,
     Valor_frete FLOAT NOT NULL,
@@ -72,12 +72,12 @@ CREATE TABLE carteira_digital (
     idCarteira_digital INT AUTO_INCREMENT PRIMARY KEY,
     Numero_carteira VARCHAR(45) NOT NULL,
     CONSTRAINT unique_numero_carteira UNIQUE (Numero_carteira),
-    Data_ades„o DATE NOT NULL,
+    Data_ades√£o DATE NOT NULL,
     Valor_em_conta FLOAT NOT NULL,
     Valor_de_cashback FLOAT NOT NULL
 );
 
--- Tabela de Pagamento com Cart„o
+-- Tabela de Pagamento com Cart√£o
 CREATE TABLE pagamento_cartao (
     idPagamento_cartao INT AUTO_INCREMENT PRIMARY KEY,
     Nome_completo_titular VARCHAR(60) NOT NULL,
@@ -209,7 +209,3 @@ CREATE TABLE produto_em_estoque (
     CONSTRAINT fk_estoque_estoque FOREIGN KEY (idEsEstoque) REFERENCES estoque(idEstoque),
     CONSTRAINT fk_estoque_produto FOREIGN KEY (idEsProduto) REFERENCES produto(idProduto)
 );
-
--- Mostra as tabelas e bancos de dados
-SHOW TABLES;
-SHOW DATABASES;
