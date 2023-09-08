@@ -10,62 +10,62 @@ DESC cliente;
 -- Insere dados na tabela "cliente"
 INSERT INTO cliente (Nome_Completo, CPF, Data_de_nascimento, Email, Telefone_1, Telefone_2, Logradouro, Endereco, Numero_Residencial, Bairro, Complemento, Cidade, Estado, CEP)
 VALUES
-    ('Maria da Silva', '12345678901', '1990-01-15', 'maria.silva@email.com', '41987654321', NULL, 'Rua das Flores', '123', 'Jardim Primavera', NULL, 'Casa 5', 'S„o Paulo', 'SP', '04567090'),
-    ('JosÈ Pereira', '98765432102', '1985-06-20', 'jose.pereira@email.com', '41998765432', NULL, 'Avenida Central', '456', 'Centro', 'Bloco 2, Ap 202', 'Rio de Janeiro', 'RJ', '20030050'),
-    ('Ana Santos', '12345678903', '1992-11-12', 'ana.santos@email.com', '41987654323', NULL, 'Rua das Palmeiras', '789', 'Pinheiros', 'Casa 18', 'S„o Paulo', 'SP', '05467080'),
-    ('Paulo Oliveira', '98765432104', '1980-09-28', 'paulo.oliveira@email.com', '41998765434', '51987654345', 'Avenida da Liberdade', '987', 'Liberdade', NULL, 'Salvador', 'BA', '40010040'),
-    ('L˙cia Ferreira', '12345678905', '1995-04-18', 'lucia.ferreira@email.com', '41987654325', NULL, 'Rua das Violetas', '321', 'Jardim Bot‚nico', 'Apartamento 503', 'Curitiba', 'PR', '80210110'),
-    ('Fernando Pereira', '98765432106', '1983-07-05', 'fernando.pereira@email.com', '41998765436', '51987654347', 'Alameda dos IpÍs', '654', 'Alphaville', 'Apartamento 105', 'Barueri', 'SP', '06455000'),
-    ('Carla Oliveira', '12345678907', '1998-02-10', 'carla.oliveira@email.com', '41987654327', NULL, 'Rua dos GirassÛis', '456', 'Vila Aurora', 'Casa 22', 'Porto Alegre', 'RS', '90540120'),
-    ('Ricardo Santos', '98765432108', '1987-11-30', 'ricardo.santos@email.com', '41998765438', NULL, 'Avenida dos Bandeirantes', '753', 'Moema', 'Bloco 1, Ap 301', 'S„o Paulo', 'SP', '04108000'),
-    ('Juliana Silva', '12345678909', '1994-05-15', 'juliana.silva@email.com', '41998765440', '51987654350', 'Rua das OrquÌdeas', '852', 'Flamengo', NULL, 'Rio de Janeiro', 'RJ', '22011040'),
-    ('Carlos Fernandes', '98765432110', '1982-08-05', 'carlos.fernandes@email.com', '41987654330', NULL, 'Avenida das Rosas', '987', 'Laranjeiras', 'Casa 7', 'Belo Horizonte', 'MG', '30160130'),
-    ('Mariana Lima', '12345678911', '1996-03-28', 'mariana.lima@email.com', '41987654311', NULL, 'Rua das Azaleias', '654', 'Jardim AmÈrica', 'Apartamento 205', 'Goi‚nia', 'GO', '74670030'),
-    ('Fernando Oliveira', '98765432112', '1984-12-10', 'fernando.oliveira@email.com', '41998765412', '51987654322', 'Alameda das MagnÛlias', '456', 'Aldeota', NULL, 'Fortaleza', 'CE', '60170040'),
-    ('Isabela Santos', '12345678913', '1991-07-22', 'isabela.santos@email.com', '41987654333', NULL, 'Rua dos Cravos', '753', 'Centro', 'Bloco 3, Ap 402', 'BrasÌlia', 'DF', '70070900'),
-    ('Lucas Pereira', '98765432114', '1988-09-05', 'lucas.pereira@email.com', '41998765444', '51987654355', 'Avenida das BegÙnias', '852', 'Itaim Bibi', 'Casa 1', 'S„o Paulo', 'SP', '04570020'),
-    ('Helena Oliveira', '12345678915', '1993-04-18', 'helena.oliveira@email.com', '41987654365', NULL, 'Rua das Tulipas', '987', 'Alto da GlÛria', NULL, 'Curitiba', 'PR', '80030070');
+    ('Maria da Silva', '12345678901', '1990-01-15', 'maria.silva@email.com', '41987654321', NULL, 'Rua', 'das Flores', '123', 'Jardim Primavera', 'Casa 5', 'S√£o Paulo', 'SP', '04567090'),
+    ('Jos√© Pereira', '98765432102', '1985-06-20', 'jose.pereira@email.com', '41998765432', NULL, 'Av.', 'Central', '456', 'Centro', 'Bloco 2, Ap 202', 'Rio de Janeiro', 'RJ', '20030050'),
+    ('Ana Santos', '12345678903', '1992-11-12', 'ana.santos@email.com', '41987654323', NULL, 'Rua', 'das Palmeiras', '789', 'Pinheiros', 'Casa 18', 'S√£o Paulo', 'SP', '05467080'),
+    ('Paulo Oliveira', '98765432104', '1980-09-28', 'paulo.oliveira@email.com', '41998765434', '51987654345', 'Av.', 'da Liberdade', '987', 'Liberdade', NULL, 'Salvador', 'BA', '40010040'),
+    ('L√∫cia Ferreira', '12345678905', '1995-04-18', 'lucia.ferreira@email.com', '41987654325', NULL, 'Rua', 'das Violetas', '321', 'Jardim Bot√¢nico', 'Apartamento 503', 'Curitiba', 'PR', '80210110'),
+    ('Fernando Pereira', '98765432106', '1983-07-05', 'fernando.pereira@email.com', '41998765436', '51987654347', 'Al.', 'dos Ip√™s', '654', 'Alphaville', 'Apartamento 105', 'Barueri', 'SP', '06455000'),
+    ('Carla Oliveira', '12345678907', '1998-02-10', 'carla.oliveira@email.com', '41987654327', NULL, 'Rua', 'dos Girass√≥is', '456', 'Vila Aurora', 'Casa 22', 'Porto Alegre', 'RS', '90540120'),
+    ('Ricardo Santos', '98765432108', '1987-11-30', 'ricardo.santos@email.com', '41998765438', NULL, 'Av.', 'dos Bandeirantes', '753', 'Moema', 'Bloco 1, Ap 301', 'S√£o Paulo', 'SP', '04108000'),
+    ('Juliana Silva', '12345678909', '1994-05-15', 'juliana.silva@email.com', '41998765440', '51987654350', 'Rua', 'das Orqu√≠deas', '852', 'Flamengo', NULL, 'Rio de Janeiro', 'RJ', '22011040'),
+    ('Carlos Fernandes', '98765432110', '1982-08-05', 'carlos.fernandes@email.com', '41987654330', NULL, 'Av.', 'das Rosas', '987', 'Laranjeiras', 'Casa 7', 'Belo Horizonte', 'MG', '30160130'),
+    ('Mariana Lima', '12345678911', '1996-03-28', 'mariana.lima@email.com', '41987654311', NULL, 'Rua', 'das Azaleias', '654', 'Jardim Am√©rica', 'Apartamento 205', 'Goi√¢nia', 'GO', '74670030'),
+    ('Fernando Oliveira', '98765432112', '1984-12-10', 'fernando.oliveira@email.com', '41998765412', '51987654322', 'Al.', 'das Magn√≥lias', '456', 'Aldeota', NULL, 'Fortaleza', 'CE', '60170040'),
+    ('Isabela Santos', '12345678913', '1991-07-22', 'isabela.santos@email.com', '41987654333', NULL, 'Rua', 'dos Cravos', '753', 'Centro', 'Bloco 3, Ap 402', 'Bras√≠lia', 'DF', '70070900'),
+    ('Lucas Pereira', '98765432114', '1988-09-05', 'lucas.pereira@email.com', '41998765444', '51987654355', 'Av.', 'das Beg√¥nias', '852', 'Itaim Bibi', 'Casa 1', 'S√£o Paulo', 'SP', '04570020'),
+    ('Helena Oliveira', '12345678915', '1993-04-18', 'helena.oliveira@email.com', '41987654365', NULL, 'Rua', 'das Tulipas', '987', 'Alto da Gl√≥ria', NULL, 'Curitiba', 'PR', '80030070');
 
 -- Descreve a estrutura da tabela "produto"
 DESC produto;
 
 -- Insere dados na tabela "produto"
 INSERT INTO produto (Nome, Categoria, Descricao, Preco_unitario, Possui_garantia_estendida, Avaliacao, Dimensoes) values
-    ('Fone De Ouvido Sem Fio Bluetooth', '¡udio e VÌdeo', 'Fone De Ouvido Sem Fio Bluetooth com Cancelamento de RuÌdo - Conforto e Qualidade Sonora', '129.99', 'Sim', '4.5', '19 x 15 x 6 cm'),
-    ('Smart TV LED 55" 4K Ultra HD', 'EletrÙnicos', 'Smart TV LED 55" 4K Ultra HD com HDR e Dolby Vision - Controle de Voz e Streaming', '1899.00', 'Sim', '4.8', '124 x 75 x 9 cm'),
-    ('Notebook Dell Inspiron 15', 'Inform·tica', 'Notebook Dell Inspiron 15 com Processador Intel Core i7, 16GB RAM e SSD de 512GB', '2999.00', 'Sim', '4.7', '36 x 24 x 2 cm'),
-    ('C‚mera DSLR Canon EOS 90D', 'Fotografia', 'C‚mera DSLR Canon EOS 90D com Lente EF-S 18-55mm e 32GB de Cart„o SD', '1499.99', 'Sim', '4.6', '15 x 10 x 8 cm'),
+    ('Fone De Ouvido Sem Fio Bluetooth', '√Åudio e V√≠deo', 'Fone De Ouvido Sem Fio Bluetooth com Cancelamento de Ru√≠do - Conforto e Qualidade Sonora', '129.99', 'Sim', '4.5', '19 x 15 x 6 cm'),
+    ('Smart TV LED 55" 4K Ultra HD', 'Eletr√¥nicos', 'Smart TV LED 55" 4K Ultra HD com HDR e Dolby Vision - Controle de Voz e Streaming', '1899.00', 'Sim', '4.8', '124 x 75 x 9 cm'),
+    ('Notebook Dell Inspiron 15', 'Inform√°tica', 'Notebook Dell Inspiron 15 com Processador Intel Core i7, 16GB RAM e SSD de 512GB', '2999.00', 'Sim', '4.7', '36 x 24 x 2 cm'),
+    ('C√¢mera DSLR Canon EOS 90D', 'Fotografia', 'C√¢mera DSLR Canon EOS 90D com Lente EF-S 18-55mm e 32GB de Cart√£o SD', '1499.99', 'Sim', '4.6', '15 x 10 x 8 cm'),
     ('Console de Jogos Xbox Series X', 'Games', 'Console de Jogos Xbox Series X com 1TB de Armazenamento e Controle Sem Fio', '499.00', 'Sim', '4.9', '30 x 24 x 8 cm'),
-    ('Geladeira Electrolux Frost Free', 'EletrodomÈsticos', 'Geladeira Electrolux Frost Free com 380 Litros de Capacidade e Dispenser de ¡gua', '1499.90', 'Sim', '4.5', '70 x 60 x 180 cm'),
-    ('Sof· de Couro LegÌtimo', 'MÛveis', 'Sof· de Couro LegÌtimo com 3 Lugares e Design Moderno - DisponÌvel em Cores Variadas', '1799.00', 'Sim', '4.7', '220 x 90 x 80 cm'),
-    ('Bicicleta Mountain Bike', 'Esporte e Lazer', 'Bicicleta Mountain Bike Aro 29 com Suspens„o Dianteira e 21 Marchas - Ideal para Trilhas', '699.99', 'Sim', '4.6', '170 x 75 x 20 cm'),
-    ('RelÛgio de Pulso Masculino', 'RelÛgios', 'RelÛgio de Pulso Masculino com CronÛgrafo e Pulseira de Couro - Resistente ‡ ¡gua', '99.90', 'Sim', '4.4', '25 x 5 x 1 cm'),
-    ('M·quina de Lavar Roupas Electrolux', 'EletrodomÈsticos', 'M·quina de Lavar Roupas Electrolux com Capacidade de 12 Kg e FunÁ„o EconÙmica', '799.00', 'Sim', '4.8', '60 x 60 x 100 cm'),
-    ('Fritadeira ElÈtrica Air Fryer', 'EletrodomÈsticos', 'Fritadeira ElÈtrica Air Fryer com Capacidade de 4 Litros e Timer Digital', '179.99', 'Sim', '4.5', '30 x 30 x 35 cm'),
-    ('Panela de Press„o ElÈtrica', 'EletrodomÈsticos', 'Panela de Press„o ElÈtrica com Capacidade de 5 Litros e FunÁıes Program·veis', '129.00', 'Sim', '4.6', '25 x 25 x 30 cm'),
-    ('Kit de Ferramentas Profissional', 'Ferramentas', 'Kit de Ferramentas Profissional com 150 PeÁas - Ideal para Reparos DomÈsticos', '149.99', 'Sim', '4.7', '40 x 30 x 15 cm'),
-    ('Mala de Viagem RÌgida', 'Bagagem', 'Mala de Viagem RÌgida com 4 Rodas e Capacidade de 28 Litros - DisponÌvel em Diversas Cores', '49.95', 'Sim', '4.4', '50 x 35 x 20 cm'),
-    ('TÍnis Esportivo Nike Air Max', 'CalÁados', 'TÍnis Esportivo Nike Air Max com Amortecimento - DisponÌvel em Diversas Cores', '129.00', 'Sim', '4.9', '30 x 15 x 10 cm'),
-    ('Fralda Descart·vel Huggies', 'BebÍs', 'Fralda Descart·vel Huggies com 200 Unidades - Tamanho M (6-9 kg)', '59.99', 'Sim', '4.6', '40 x 30 x 20 cm'),
+    ('Geladeira Electrolux Frost Free', 'Eletrodom√©sticos', 'Geladeira Electrolux Frost Free com 380 Litros de Capacidade e Dispenser de √Ågua', '1499.90', 'Sim', '4.5', '70 x 60 x 180 cm'),
+    ('Sof√° de Couro Leg√≠timo', 'M√≥veis', 'Sof√° de Couro Leg√≠timo com 3 Lugares e Design Moderno - Dispon√≠vel em Cores Variadas', '1799.00', 'Sim', '4.7', '220 x 90 x 80 cm'),
+    ('Bicicleta Mountain Bike', 'Esporte e Lazer', 'Bicicleta Mountain Bike Aro 29 com Suspens√£o Dianteira e 21 Marchas - Ideal para Trilhas', '699.99', 'Sim', '4.6', '170 x 75 x 20 cm'),
+    ('Rel√≥gio de Pulso Masculino', 'Rel√≥gios', 'Rel√≥gio de Pulso Masculino com Cron√≥grafo e Pulseira de Couro - Resistente √† √Ågua', '99.90', 'Sim', '4.4', '25 x 5 x 1 cm'),
+    ('M√°quina de Lavar Roupas Electrolux', 'Eletrodom√©sticos', 'M√°quina de Lavar Roupas Electrolux com Capacidade de 12 Kg e Fun√ß√£o Econ√¥mica', '799.00', 'Sim', '4.8', '60 x 60 x 100 cm'),
+    ('Fritadeira El√©trica Air Fryer', 'Eletrodom√©sticos', 'Fritadeira El√©trica Air Fryer com Capacidade de 4 Litros e Timer Digital', '179.99', 'Sim', '4.5', '30 x 30 x 35 cm'),
+    ('Panela de Press√£o El√©trica', 'Eletrodom√©sticos', 'Panela de Press√£o El√©trica com Capacidade de 5 Litros e Fun√ß√µes Program√°veis', '129.00', 'Sim', '4.6', '25 x 25 x 30 cm'),
+    ('Kit de Ferramentas Profissional', 'Ferramentas', 'Kit de Ferramentas Profissional com 150 Pe√ßas - Ideal para Reparos Dom√©sticos', '149.99', 'Sim', '4.7', '40 x 30 x 15 cm'),
+    ('Mala de Viagem R√≠gida', 'Bagagem', 'Mala de Viagem R√≠gida com 4 Rodas e Capacidade de 28 Litros - Dispon√≠vel em Diversas Cores', '49.95', 'Sim', '4.4', '50 x 35 x 20 cm'),
+    ('T√™nis Esportivo Nike Air Max', 'Cal√ßados', 'T√™nis Esportivo Nike Air Max com Amortecimento - Dispon√≠vel em Diversas Cores', '129.00', 'Sim', '4.9', '30 x 15 x 10 cm'),
+    ('Fralda Descart√°vel Huggies', 'Beb√™s', 'Fralda Descart√°vel Huggies com 200 Unidades - Tamanho M (6-9 kg)', '59.99', 'Sim', '4.6', '40 x 30 x 20 cm'),
     ('Brinquedo Educativo Montessori', 'Brinquedos', 'Brinquedo Educativo Montessori de Madeira - Ideal para o Desenvolvimento Infantil', '39.90', 'Sim', '4.8', '20 x 20 x 10 cm'),
-    ('RelÛgio Inteligente Smartwatch', 'RelÛgios', 'RelÛgio Inteligente Smartwatch com Monitor de FrequÍncia CardÌaca e NotificaÁıes', '89.99', 'Sim', '4.5', '25 x 5 x 1 cm'),
-    ('Cadeira Gamer ErgonÙmica', 'MÛveis', 'Cadeira Gamer ErgonÙmica com Apoio para PÈs e Design Esportivo - DisponÌvel em Cores Variadas', '279.00', 'Sim', '4.7', '70 x 60 x 120 cm'),
-    ('Aspirador de PÛ Port·til', 'EletrodomÈsticos', 'Aspirador de PÛ Port·til Recarreg·vel - Ideal para Carros e Pequenos EspaÁos', '49.90', 'Sim', '4.5', '40 x 10 x 10 cm'),
-    ('RelÛgio Feminino Rose Gold', 'RelÛgios', 'RelÛgio Feminino Rose Gold com Pulseira de Malha de AÁo - Resistente ‡ ¡gua', '69.95', 'Sim', '4.6', '20 x 5 x 1 cm'),
-    ('Ventilador de Teto com Controle', 'EletrodomÈsticos', 'Ventilador de Teto com Controle Remoto e 3 Velocidades - DisponÌvel em Cores Variadas', '119.99', 'Sim', '4.8', '120 x 50 x 30 cm'),
-    ('C‚mera de SeguranÁa Wi-Fi', 'SeguranÁa', 'C‚mera de SeguranÁa Wi-Fi com Vis„o Noturna e DetecÁ„o de Movimento - Controle pelo Smartphone', '69.00', 'Sim', '4.5', '10 x 10 x 10 cm'),
+    ('Rel√≥gio Inteligente Smartwatch', 'Rel√≥gios', 'Rel√≥gio Inteligente Smartwatch com Monitor de Frequ√™ncia Card√≠aca e Notifica√ß√µes', '89.99', 'Sim', '4.5', '25 x 5 x 1 cm'),
+    ('Cadeira Gamer Ergon√¥mica', 'M√≥veis', 'Cadeira Gamer Ergon√¥mica com Apoio para P√©s e Design Esportivo - Dispon√≠vel em Cores Variadas', '279.00', 'Sim', '4.7', '70 x 60 x 120 cm'),
+    ('Aspirador de P√≥ Port√°til', 'Eletrodom√©sticos', 'Aspirador de P√≥ Port√°til Recarreg√°vel - Ideal para Carros e Pequenos Espa√ßos', '49.90', 'Sim', '4.5', '40 x 10 x 10 cm'),
+    ('Rel√≥gio Feminino Rose Gold', 'Rel√≥gios', 'Rel√≥gio Feminino Rose Gold com Pulseira de Malha de A√ßo - Resistente √† √Ågua', '69.95', 'Sim', '4.6', '20 x 5 x 1 cm'),
+    ('Ventilador de Teto com Controle', 'Eletrodom√©sticos', 'Ventilador de Teto com Controle Remoto e 3 Velocidades - Dispon√≠vel em Cores Variadas', '119.99', 'Sim', '4.8', '120 x 50 x 30 cm'),
+    ('C√¢mera de Seguran√ßa Wi-Fi', 'Seguran√ßa', 'C√¢mera de Seguran√ßa Wi-Fi com Vis√£o Noturna e Detec√ß√£o de Movimento - Controle pelo Smartphone', '69.00', 'Sim', '4.5', '10 x 10 x 10 cm'),
     ('Mochila Escolar Juvenil', 'Moda', 'Mochila Escolar Juvenil com Estampa Colorida - Ideal para Estudantes', '29.99', 'Sim', '4.4', '40 x 30 x 15 cm'),
-    ('Colch„o de Casal OrtopÈdico', 'MÛveis', 'Colch„o de Casal OrtopÈdico com Molas Ensacadas e Espuma de Alta Densidade', '599.00', 'Sim', '4.7', '190 x 140 x 25 cm'),
-    ('RelÛgio de Parede Decorativo', 'DecoraÁ„o', 'RelÛgio de Parede Decorativo com Design Moderno - DisponÌvel em Diversas Cores', '29.95', 'Sim', '4.6', '30 x 30 x 4 cm'),
-    ('M·quina de CafÈ Expresso', 'EletrodomÈsticos', 'M·quina de CafÈ Expresso com Moedor Integrado e Espuma de Leite - Prepara Cappuccinos e Lattes', '249.00', 'Sim', '4.8', '35 x 30 x 25 cm'),
-    ('Ferro de Passar a Vapor', 'EletrodomÈsticos', 'Ferro de Passar a Vapor com Base Antiaderente - Leve e Pr·tico', '19.90', 'Sim', '4.5', '30 x 15 x 10 cm'),
-    ('Kit de Maquiagem Profissional', 'Beleza e Perfumaria', 'Kit de Maquiagem Profissional com Paleta de Sombras e PincÈis - Ideal para Maquiadores', '49.99', 'Sim', '4.7', '25 x 20 x 5 cm'),
-    ('Batedeira Planet·ria Oster', 'EletrodomÈsticos', 'Batedeira Planet·ria Oster com Tigela de 4,5 Litros e 12 Velocidades', '119.00', 'Sim', '4.6', '35 x 30 x 25 cm'),
-    ('Churrasqueira a Carv„o', 'Casa e Jardim', 'Churrasqueira a Carv„o com Grelha de 55 cm e Rodinhas - Ideal para Churrascos em FamÌlia', '149.99', 'Sim', '4.8', '70 x 50 x 30 cm'),
-    ('TÍnis de Corrida Asics Gel', 'Esporte e Lazer', 'TÍnis de Corrida Asics Gel com Amortecimento e Design Esportivo - DisponÌvel em Diversas Cores', '89.90', 'Sim', '4.7', '30 x 20 x 10 cm'),
-    ('M·quina de Cortar Cabelo Wahl', 'Beleza e Perfumaria', 'M·quina de Cortar Cabelo Wahl com 10 Pentes de Corte e L‚mina em AÁo Inoxid·vel', '49.95', 'Sim', '4.6', '20 x 10 x 5 cm'),
-    ('Micro-ondas Electrolux', 'EletrodomÈsticos', 'Micro-ondas Electrolux com Capacidade de 20 Litros e FunÁ„o Descongelamento', '199.00', 'Sim', '4.5', '40 x 30 x 25 cm'),
-    ('Teclado Mec‚nico Gamer', 'Games', 'Teclado Mec‚nico Gamer com IluminaÁ„o RGB e Teclas Anti-ghosting', '69.99', 'Sim', '4.8', '45 x 15 x 3 cm');
+    ('Colch√£o de Casal Ortop√©dico', 'M√≥veis', 'Colch√£o de Casal Ortop√©dico com Molas Ensacadas e Espuma de Alta Densidade', '599.00', 'Sim', '4.7', '190 x 140 x 25 cm'),
+    ('Rel√≥gio de Parede Decorativo', 'Decora√ß√£o', 'Rel√≥gio de Parede Decorativo com Design Moderno - Dispon√≠vel em Diversas Cores', '29.95', 'Sim', '4.6', '30 x 30 x 4 cm'),
+    ('M√°quina de Caf√© Expresso', 'Eletrodom√©sticos', 'M√°quina de Caf√© Expresso com Moedor Integrado e Espuma de Leite - Prepara Cappuccinos e Lattes', '249.00', 'Sim', '4.8', '35 x 30 x 25 cm'),
+    ('Ferro de Passar a Vapor', 'Eletrodom√©sticos', 'Ferro de Passar a Vapor com Base Antiaderente - Leve e Pr√°tico', '19.90', 'Sim', '4.5', '30 x 15 x 10 cm'),
+    ('Kit de Maquiagem Profissional', 'Beleza e Perfumaria', 'Kit de Maquiagem Profissional com Paleta de Sombras e Pinc√©is - Ideal para Maquiadores', '49.99', 'Sim', '4.7', '25 x 20 x 5 cm'),
+    ('Batedeira Planet√°ria Oster', 'Eletrodom√©sticos', 'Batedeira Planet√°ria Oster com Tigela de 4,5 Litros e 12 Velocidades', '119.00', 'Sim', '4.6', '35 x 30 x 25 cm'),
+    ('Churrasqueira a Carv√£o', 'Casa e Jardim', 'Churrasqueira a Carv√£o com Grelha de 55 cm e Rodinhas - Ideal para Churrascos em Fam√≠lia', '149.99', 'Sim', '4.8', '70 x 50 x 30 cm'),
+    ('T√™nis de Corrida Asics Gel', 'Esporte e Lazer', 'T√™nis de Corrida Asics Gel com Amortecimento e Design Esportivo - Dispon√≠vel em Diversas Cores', '89.90', 'Sim', '4.7', '30 x 20 x 10 cm'),
+    ('M√°quina de Cortar Cabelo Wahl', 'Beleza e Perfumaria', 'M√°quina de Cortar Cabelo Wahl com 10 Pentes de Corte e L√¢mina em A√ßo Inoxid√°vel', '49.95', 'Sim', '4.6', '20 x 10 x 5 cm'),
+    ('Micro-ondas Electrolux', 'Eletrodom√©sticos', 'Micro-ondas Electrolux com Capacidade de 20 Litros e Fun√ß√£o Descongelamento', '199.00', 'Sim', '4.5', '40 x 30 x 25 cm'),
+    ('Teclado Mec√¢nico Gamer', 'Games', 'Teclado Mec√¢nico Gamer com Ilumina√ß√£o RGB e Teclas Anti-ghosting', '69.99', 'Sim', '4.8', '45 x 15 x 3 cm');
 
 
 -- Descreve a estrutura da tabela "empresa_frete"
@@ -73,10 +73,10 @@ DESC empresa_frete;
 
 -- Insere dados na tabela "empresa_frete"
 INSERT INTO empresa_frete (Razao_social, Nome_fantasia, CNPJ, Responsavel, Email_1, Email_2, Telefone_1, Telefone_2) VALUES
-    ('TransLogÌstica Expressa Ltda', 'TransLogÌstica Expressa', '12345678000100', 'Carolina Santos', 'carolina@translogistica.com', 'atendimento@translogistica.com', '11987654321', '11901234567'),
-    ('R·pido Entregas R·pidas Ltda', 'R·pido Entregas R·pidas', '98765432000199', 'Felipe Oliveira', 'felipe@rapidoentregas.com', 'contato@rapidoentregas.com', '21987654321', '21901234567'),
+    ('TransLog√≠stica Expressa Ltda', 'TransLog√≠stica Expressa', '12345678000100', 'Carolina Santos', 'carolina@translogistica.com', 'atendimento@translogistica.com', '11987654321', '11901234567'),
+    ('R√°pido Entregas R√°pidas Ltda', 'R√°pido Entregas R√°pidas', '98765432000199', 'Felipe Oliveira', 'felipe@rapidoentregas.com', 'contato@rapidoentregas.com', '21987654321', '21901234567'),
     ('LogiExpresso Transportes', 'LogiExpresso', '56789012000188', 'Lucas Martins', 'lucas@logiexpresso.com', 'atendimento@logiexpresso.com', '41987654321', '41901234567'),
-    ('¡gilLogÌstica Nacional Ltda', '¡gilLogÌstica Nacional', '34567890000177', 'Beatriz Silva', 'beatriz@agillogistica.com', 'contato@agillogistica.com', '51987654321', '51901234567');
+    ('√ÅgilLog√≠stica Nacional Ltda', '√ÅgilLog√≠stica Nacional', '34567890000177', 'Beatriz Silva', 'beatriz@agillogistica.com', 'contato@agillogistica.com', '51987654321', '51901234567');
 
 -- Descreve a estrutura da tabela "entrega"
 DESC entrega;
@@ -86,9 +86,9 @@ INSERT INTO entrega (idEntregaEmpresa_frete, Codigo_rastreio, Status_entrega, Pr
     ('1', 'A100001', 'Separado pelo fornecedor', '2022-10-25', '0'),
     ('2', 'A100002', 'Separado pelo fornecedor', '2022-10-31', '11.90'),
     ('2', 'A100003', 'Separado pelo fornecedor', '2022-10-24', '20.49'),
-    ('4', 'A100004', 'Saiu do centro de distribuiÁ„o', '2022-10-27', '7.99'),
-    ('4', 'B200001', 'Saiu do centro de distribuiÁ„o', '2022-10-25', '8.00'),
-    ('3', 'B200002', 'Saiu do centro de distribuiÁ„o', '2022-10-22', '9.40'),
+    ('4', 'A100004', 'Saiu do centro de distribui√ß√£o', '2022-10-27', '7.99'),
+    ('4', 'B200001', 'Saiu do centro de distribui√ß√£o', '2022-10-25', '8.00'),
+    ('3', 'B200002', 'Saiu do centro de distribui√ß√£o', '2022-10-22', '9.40'),
     ('1', 'B200003', 'A caminho da sua cidade', '2022-10-21', '0'),
     ('3', 'B200004', 'A caminho da sua cidade', '2022-10-21', '0'),
     ('1', 'C300001', 'A caminho da sua cidade', '2022-10-22', '0'),
@@ -109,7 +109,7 @@ SELECT * FROM entrega;
 DESC carteira_digital;
 
 -- Inserir dados na tabela "carteira_digital"
-INSERT INTO carteira_digital (numero_carteira, Data_ades„o, Valor_em_conta, valor_de_cashback) VALUES
+INSERT INTO carteira_digital (numero_carteira, Data_ades√£o, Valor_em_conta, valor_de_cashback) VALUES
     ('123456', '2021-08-13', '0.00', '0.00'),
     ('123654', '2021-09-03', '190.00', '0.00'),
     ('125463', '2021-10-19', '1230.58', '0.00'),
@@ -130,10 +130,10 @@ DESC pagamento_cartao;
 -- Inserir dados na tabela "pagamento_cartao"
 INSERT INTO pagamento_cartao (Nome_completo_titular, Numero_cartao, Bandeira_cartao, Data_validade, CPF_CNPJ_Titular) VALUES
     ('Maria da Silva', '4020202020202020', 'VISA', '2025-06-30', '12345678901'),
-    ('JosÈ Pereira', '5123512351235123', 'MasterCard', '2024-09-30', '98765432109'),
+    ('Jos√© Pereira', '5123512351235123', 'MasterCard', '2024-09-30', '98765432109'),
     ('Ana Santos', '6010601060106010', 'ELO', '2023-12-30', '45678901234'),
     ('Paulo Oliveira', '7458745874587458', 'American Express', '2024-11-30', '78901234567'),
-    ('L˙cia Ferreira', '8255825582558255', 'VISA', '2025-08-30', '23456789012'),
+    ('L√∫cia Ferreira', '8255825582558255', 'VISA', '2025-08-30', '23456789012'),
     ('Fernando Pereira', '9320932093209320', 'MasterCard', '2026-03-30', '67890123456'),
     ('Carla Oliveira', '1010101010101010', 'ELO', '2024-02-30', '34567890123'),
     ('Ricardo Santos', '1122112211221122', 'MasterCard', '2023-07-30', '56789012345'),
@@ -147,21 +147,21 @@ DESC conta;
 
 -- Inserir dados na tabela "conta"
 INSERT INTO conta (idContaCliente, Tipo_conta, CPF, CNPJ, Data_fundacao, Data_aniversario, Atividade_economica, Profissao) VALUES
-    ('1', 'Pessoa FÌsica', '12345678912', null, '1980-03-15', '1975-05-20', 'Professor', 'Professor de Matem·tica'),
-    ('2', 'Pessoa FÌsica', '98765432198', null, '1992-08-10', '1988-11-14', 'Analista RH', 'Analista de Recursos Humanos'),
-    ('3', 'Pessoa FÌsica', '12378945665', null, '1975-11-26', '1972-02-05', 'Estudante', 'Estudante de Engenharia'),
-    ('4', 'Pessoa FÌsica', '32165498745', null, '1962-04-03', '1960-09-18', 'Cantor', 'Cantor de MPB'),
-    ('5', 'Pessoa FÌsica', '15948723619', null, '1958-09-12', '1956-07-02', 'Cantor', 'Cantor de Rock'),
-    ('6', 'Pessoa FÌsica', '23651948718', null, '1982-07-30', '1980-11-22', 'Jogador de Futebol', 'Atleta Profissional'),
-    ('7', 'Pessoa FÌsica', '32564197849', null, '1976-01-14', '1973-12-06', 'Cantor', 'Cantor de Samba'),
-    ('8', 'Pessoa FÌsica', '11133355598', null, '1963-02-28', '1960-06-10', 'Escritor', 'Escritor de FicÁ„o'),
-    ('9', 'Pessoa FÌsica', '12398765445', null, '1968-12-05', '1966-04-20', 'M„e de Santo', 'Religiosa'),
-    ('10', 'Pessoa FÌsica', '33211566487', null, '1977-03-19', '1974-08-30', 'Escritora', 'Escritora de Poesia'),
-    ('11', 'Pessoa FÌsica', '44266598791', null, '1965-05-08', '1962-10-18', 'Ator', 'Ator de Cinema'),
-    ('12', 'Pessoa FÌsica', '12365897469', null, '1987-07-25', '1985-03-15', 'Cantora', 'Cantora Pop'),
-    ('13', 'Pessoa FÌsica', '15648975631', null, '1972-11-11', '1970-06-26', 'Cantor', 'Cantor de Rock'),
-    ('14', 'Pessoa FÌsica', '32564198765', null, '1980-04-20', '1977-08-09', 'Escritora', 'Escritora de Romance'),
-    ('15', 'Pessoa FÌsica', '35798641852', null, '1978-03-30', '1975-09-05', 'GeÛgrafo', 'GeÛgrafo Ambiental');
+    ('1', 'Pessoa F√≠sica', '12345678912', null, '1980-03-15', '1975-05-20', 'Professor', 'Professor de Matem√°tica'),
+    ('2', 'Pessoa F√≠sica', '98765432198', null, '1992-08-10', '1988-11-14', 'Analista RH', 'Analista de Recursos Humanos'),
+    ('3', 'Pessoa F√≠sica', '12378945665', null, '1975-11-26', '1972-02-05', 'Estudante', 'Estudante de Engenharia'),
+    ('4', 'Pessoa F√≠sica', '32165498745', null, '1962-04-03', '1960-09-18', 'Cantor', 'Cantor de MPB'),
+    ('5', 'Pessoa F√≠sica', '15948723619', null, '1958-09-12', '1956-07-02', 'Cantor', 'Cantor de Rock'),
+    ('6', 'Pessoa F√≠sica', '23651948718', null, '1982-07-30', '1980-11-22', 'Jogador de Futebol', 'Atleta Profissional'),
+    ('7', 'Pessoa F√≠sica', '32564197849', null, '1976-01-14', '1973-12-06', 'Cantor', 'Cantor de Samba'),
+    ('8', 'Pessoa F√≠sica', '11133355598', null, '1963-02-28', '1960-06-10', 'Escritor', 'Escritor de Fic√ß√£o'),
+    ('9', 'Pessoa F√≠sica', '12398765445', null, '1968-12-05', '1966-04-20', 'M√£e de Santo', 'Religiosa'),
+    ('10', 'Pessoa F√≠sica', '33211566487', null, '1977-03-19', '1974-08-30', 'Escritora', 'Escritora de Poesia'),
+    ('11', 'Pessoa F√≠sica', '44266598791', null, '1965-05-08', '1962-10-18', 'Ator', 'Ator de Cinema'),
+    ('12', 'Pessoa F√≠sica', '12365897469', null, '1987-07-25', '1985-03-15', 'Cantora', 'Cantora Pop'),
+    ('13', 'Pessoa F√≠sica', '15648975631', null, '1972-11-11', '1970-06-26', 'Cantor', 'Cantor de Rock'),
+    ('14', 'Pessoa F√≠sica', '32564198765', null, '1980-04-20', '1977-08-09', 'Escritora', 'Escritora de Romance'),
+    ('15', 'Pessoa F√≠sica', '35798641852', null, '1978-03-30', '1975-09-05', 'Ge√≥grafo', 'Ge√≥grafo Ambiental');
 
 -- Seleciona todos os registros da tabela "carteira_digital"
 SELECT * FROM carteira_digital;
@@ -220,8 +220,8 @@ DESC estoque;
 -- Insere dados na tabela "estoque"
 INSERT INTO estoque (Local_estoque, Responsavel, Email_1, Email_2, Telefone_1, Telefone_2) VALUES
     ('Curitiba', 'Pedro Souza', 'cd-curitiba@estoque.com', NULL, '41998569632', '41998569630'),
-    ('Rio de Janeiro', 'Jo„o da Silva', 'cd-riodejaneiro@estoque.com', NULL, '21998548962', '21998548960'),
-    ('S„o Paulo', 'Jose dos Flores', 'cd-saopaulo@estoque.com', NULL, '11985478596', '11985478590'),
+    ('Rio de Janeiro', 'Jo√£o da Silva', 'cd-riodejaneiro@estoque.com', NULL, '21998548962', '21998548960'),
+    ('S√£o Paulo', 'Jose dos Flores', 'cd-saopaulo@estoque.com', NULL, '11985478596', '11985478590'),
     ('Belo Horizonte', 'Maria Oliveira', 'cd-bh@estoque.com', NULL, '31987546982', '31987546980');
 
 -- Descreve a estrutura da tabela "fornecedor"
@@ -229,18 +229,18 @@ DESC fornecedor;
 
 -- Insere dados na tabela "fornecedor"
 INSERT INTO fornecedor (Razao_social, Nome_fantasia, CNPJ, Responsavel, Endereco_fornecedor, Contato_email_1, Contato_email_2, Contato_telefone_1, Contato_telefone_2) VALUES
-    ('Inova Suprimentos Ltda', 'Inova Suprimentos', '43156789000199', 'Mariana Silva', 'Rua das Ind˙strias, Curitiba - Paran· / Brasil', 'contato@inovasuprimentos.com.br', 'vendas@inovasuprimentos.com.br', '41998887654', '41998887655'),
-    ('Tech Gadget Emporium', 'Tech Gadget', '75248965000172', 'Rodrigo Santos', 'Avenida das Novas Tecnologias, S„o Paulo - S„o Paulo / Brasil', 'contato@techgadget.com.br', NULL, '11987765432', NULL),
-    ('MÛveis Elegantes SA.', 'MÛveis Elegantes', '32567891000145', 'Ana Paula Ferreira', 'Rua dos MÛveis Finos, Rio de Janeiro - Rio de Janeiro / Brasil', 'contato@moveiselegantes.com', 'vendas@moveiselegantes.com.br', '21987654321', '21987654322'),
-    ('EletroTech ComunicaÁıes', 'EletroTech', '89321654000127', 'Carlos Souza', 'Avenida das ComunicaÁıes, Belo Horizonte - Minas Gerais / Brasil', 'contato@eletrotech.com', 'suporte@eletrotech.com', '31335548796', '31335548797');
+    ('Inova Suprimentos Ltda', 'Inova Suprimentos', '43156789000199', 'Mariana Silva', 'Rua das Ind√∫strias, Curitiba - Paran√° / Brasil', 'contato@inovasuprimentos.com.br', 'vendas@inovasuprimentos.com.br', '41998887654', '41998887655'),
+    ('Tech Gadget Emporium', 'Tech Gadget', '75248965000172', 'Rodrigo Santos', 'Avenida das Novas Tecnologias, S√£o Paulo - S√£o Paulo / Brasil', 'contato@techgadget.com.br', NULL, '11987765432', NULL),
+    ('M√≥veis Elegantes SA.', 'M√≥veis Elegantes', '32567891000145', 'Ana Paula Ferreira', 'Rua dos M√≥veis Finos, Rio de Janeiro - Rio de Janeiro / Brasil', 'contato@moveiselegantes.com', 'vendas@moveiselegantes.com.br', '21987654321', '21987654322'),
+    ('EletroTech Comunica√ß√µes', 'EletroTech', '89321654000127', 'Carlos Souza', 'Avenida das Comunica√ß√µes, Belo Horizonte - Minas Gerais / Brasil', 'contato@eletrotech.com', 'suporte@eletrotech.com', '31335548796', '31335548797');
 
 -- Descreve a estrutura da tabela "vendedor"
 DESC vendedor;
 
 -- Insere dados na tabela "vendedor"
 INSERT INTO vendedor (Razao_social, Nome_fantasia, CPF_CNPJ, Local_vendedor, Nome_vendedor, Email_1, Email_2, Telefone_1, Telefone_2) VALUES
-    ('Loja de DecoraÁ„o e Design', 'DecoDesign', '98765432109876', 'S„o Paulo', 'Carlos Rodrigues', 'carlos@decodesign.com.br', 'atendimento@decodesign.com.br', '11985476213', '11985476214'),
-    ('Suprimentos de Inform·tica SA.', 'InfoSupri', '45678901234567', 'Curitiba', 'L˙cia Fernandes', 'lucia@infosupri.com', 'vendas@infosupri.com.br', '41987654321', '41987654322'),
+    ('Loja de Decora√ß√£o e Design', 'DecoDesign', '98765432109876', 'S√£o Paulo', 'Carlos Rodrigues', 'carlos@decodesign.com.br', 'atendimento@decodesign.com.br', '11985476213', '11985476214'),
+    ('Suprimentos de Inform√°tica SA.', 'InfoSupri', '45678901234567', 'Curitiba', 'L√∫cia Fernandes', 'lucia@infosupri.com', 'vendas@infosupri.com.br', '41987654321', '41987654322'),
     ('Loja de Roupas Elegantes', 'Elegance Fashion', '98765432100123', 'Belo Horizonte', 'Gustavo Lima', 'gustavo@elegancefashion.com.br', 'atendimento@elegancefashion.com.br', '31335476213', '31335476214'),
     ('Equipamentos Esportivos Ltda', 'Esporte Total', '12309876543210', 'Rio de Janeiro', 'Fernanda Souza', 'fernanda@esportetotal.com', 'vendas@esportetotal.com.br', '21987654321', '21987654322');
 
@@ -249,21 +249,21 @@ DESC produto_pedido;
 
 -- Insere dados na tabela "produto_pedido"
 INSERT INTO produto_pedido (idPeProduto, idPePedido, Quantidade_produto, Status_pp) VALUES
-    (5, 1, 2, 'DisponÌvel'),
-    (6, 2, 1, 'DisponÌvel'),
-    (16, 3, 3, 'DisponÌvel'),
+    (5, 1, 2, 'Dispon√≠vel'),
+    (6, 2, 1, 'Dispon√≠vel'),
+    (16, 3, 3, 'Dispon√≠vel'),
     (23, 4, 4, 'Sem estoque'),
-    (34, 5, 1, 'DisponÌvel'),
-    (7, 6, 2, 'DisponÌvel'),
+    (34, 5, 1, 'Dispon√≠vel'),
+    (7, 6, 2, 'Dispon√≠vel'),
     (12, 7, 3, 'Sem estoque'),
     (22, 8, 1, 'Sem estoque'),
-    (10, 9, 4, 'DisponÌvel'),
-    (32, 10, 2, 'DisponÌvel'),
+    (10, 9, 4, 'Dispon√≠vel'),
+    (32, 10, 2, 'Dispon√≠vel'),
     (17, 11, 3, 'Sem estoque'),
-    (29, 12, 1, 'DisponÌvel'),
-    (35, 13, 2, 'DisponÌvel'),
+    (29, 12, 1, 'Dispon√≠vel'),
+    (35, 13, 2, 'Dispon√≠vel'),
     (8, 14, 3, 'Sem estoque'),
-    (19, 15, 4, 'DisponÌvel');
+    (19, 15, 4, 'Dispon√≠vel');
 
 -- Descreve a estrutura da tabela "produto_vendedor"
 DESC produto_vendedor;
@@ -354,7 +354,7 @@ INSERT INTO produto_em_estoque (idEsEstoque, idEsProduto, Quantidade_estoque) VA
     (3, 34, 77),
     (3, 35, 69);
 
--- Contando o n˙mero de clientes cadastrados:
+-- Contando o n√∫mero de clientes cadastrados:
 SELECT COUNT(*) FROM cliente;
 
 -- Recuperando os dados dos clientes que realizaram pedidos:
